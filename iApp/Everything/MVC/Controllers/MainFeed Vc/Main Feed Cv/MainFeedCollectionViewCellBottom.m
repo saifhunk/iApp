@@ -10,4 +10,10 @@
 
 @implementation MainFeedCollectionViewCellBottom
 
+-(void)awakeFromNib
+{
+    self.ImageViewPerson.layer.cornerRadius = self.ImageViewPerson.frame.size.height/2;
+}
+
+
 @end

@@ -16,6 +16,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *btnFilter;
 
 @property (weak, nonatomic) IBOutlet UIButton *btnGroup;
+@property (weak, nonatomic) IBOutlet UIButton *btnFeed;
 
 @property (weak, nonatomic) IBOutlet UIButton *btnProfile;
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionViewTop;
@@ -31,6 +32,7 @@
 - (IBAction)actionBtnGroup:(id)sender;
 - (IBAction)actionBtnProfile:(id)sender;
 - (IBAction)actionBnFilter:(id)sender;
+- (IBAction)actionFeed:(id)sender;
 
 
 @end

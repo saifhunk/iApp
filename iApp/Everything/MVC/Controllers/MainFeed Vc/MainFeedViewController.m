@@ -7,12 +7,13 @@
 
 #import "MainFeedViewController.h"
 
+
+
 @interface MainFeedViewController ()
-{
-    BOOL isfirstTime;
-}
+
 
 @end
+#define Height4s 480
 
 @implementation MainFeedViewController
 
@@ -21,7 +22,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //hello
+
     // Do any additional setup after loading the view.
 }
 
@@ -30,21 +31,13 @@
     [super viewWillAppear:animated];
 }
 
--(void)viewWillLayoutSubviews
-{
- 
-}
-
--(void)viewDidLayoutSubviews{
-    [super viewDidLayoutSubviews];
-    
-}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
 
+#pragma mark - ViewHeirarchy
 
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
@@ -65,7 +58,14 @@
         
     
     MainFeedCollectionViewCellTop * cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"MainFeedCollectionViewCellTop" forIndexPath:indexPath];
+        CGRect height = [[UIScreen mainScreen]bounds];
+        
+        if (Height4s == height.size.height) {
+            
+            cell.constraintBtnEye.constant = 10;
+        }
         return cell;
+        
         
     }
     
@@ -84,11 +84,11 @@
         
 
 
-    return CGSizeMake(self.collectionViewTop.frame.size.width,self.collectionViewTop.frame.size.height/2);
+    return CGSizeMake(self.collectionViewTop.frame.size.width,self.collectionViewTop.frame.size.height);
     }
     else
     {
-        return CGSizeMake(self.collectionViewBottom.frame.size.width/2.2,self.collectionViewBottom.frame.size.height/2);
+        return CGSizeMake(self.collectionViewBottom.frame.size.width/2.2,self.collectionViewBottom.frame.size.height);
     }
 
 }
@@ -104,6 +104,9 @@
 }
 
 - (IBAction)actionBnFilter:(id)sender {
+}
+
+- (IBAction)actionFeed:(id)sender {
 }
 
 @end

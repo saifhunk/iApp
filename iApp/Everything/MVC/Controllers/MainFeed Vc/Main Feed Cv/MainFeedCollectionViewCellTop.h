@@ -20,6 +20,9 @@
 @property (weak, nonatomic) IBOutlet UIButton *btnStar;
 @property (weak, nonatomic) IBOutlet UILabel *labelDetails;
 @property (weak, nonatomic) IBOutlet UILabel *labelWebsite;
+@property (weak, nonatomic) IBOutlet UIButton *btnJournalist;
+@property (weak, nonatomic) IBOutlet UIButton *btnEye;
 
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *constraintBtnEye;
 
 @end
