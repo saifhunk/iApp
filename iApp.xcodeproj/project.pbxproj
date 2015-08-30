@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D445ADBD1B91E72D00208891 /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D445ADBC1B91E72D00208891 /* NotificationViewController.m */; };
 		D48D16411B8F663C00BDE92B /* MainFeedCollectionViewCellTop.m in Sources */ = {isa = PBXBuildFile; fileRef = D48D16401B8F663C00BDE92B /* MainFeedCollectionViewCellTop.m */; };
 		D48D16441B8F665600BDE92B /* MainFeedCollectionViewCellBottom.m in Sources */ = {isa = PBXBuildFile; fileRef = D48D16431B8F665600BDE92B /* MainFeedCollectionViewCellBottom.m */; };
 		D4B969681B8CCB43000575E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B969671B8CCB43000575E5 /* main.m */; };
@@ -18,6 +19,9 @@
 		D4B9699D1B8CCFFA000575E5 /* LocalizeHelper.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4B9699F1B8CCFFA000575E5 /* LocalizeHelper.strings */; };
 		D4B969A31B8CD0A7000575E5 /* LoginViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B969A21B8CD0A7000575E5 /* LoginViewViewController.m */; };
 		D4CFF1E71B8E175000B74CFA /* MainFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CFF1E61B8E175000B74CFA /* MainFeedViewController.m */; };
+		D4F7E32E1B93305A006A2547 /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F7E32D1B93305A006A2547 /* PostViewController.m */; };
+		D4F7E3321B9332D9006A2547 /* CommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F7E3311B9332D9006A2547 /* CommentViewController.m */; };
+		D4F7E3361B933969006A2547 /* CommentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F7E3351B933969006A2547 /* CommentTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D445ADBB1B91E72D00208891 /* NotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
+		D445ADBC1B91E72D00208891 /* NotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
 		D48D163F1B8F663C00BDE92B /* MainFeedCollectionViewCellTop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainFeedCollectionViewCellTop.h; sourceTree = "<group>"; };
 		D48D16401B8F663C00BDE92B /* MainFeedCollectionViewCellTop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainFeedCollectionViewCellTop.m; sourceTree = "<group>"; };
 		D48D16421B8F665600BDE92B /* MainFeedCollectionViewCellBottom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainFeedCollectionViewCellBottom.h; sourceTree = "<group>"; };
@@ -52,6 +58,12 @@
 		D4B969A21B8CD0A7000575E5 /* LoginViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewViewController.m; sourceTree = "<group>"; };
 		D4CFF1E51B8E174F00B74CFA /* MainFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainFeedViewController.h; sourceTree = "<group>"; };
 		D4CFF1E61B8E175000B74CFA /* MainFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainFeedViewController.m; sourceTree = "<group>"; };
+		D4F7E32C1B93305A006A2547 /* PostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostViewController.h; sourceTree = "<group>"; };
+		D4F7E32D1B93305A006A2547 /* PostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostViewController.m; sourceTree = "<group>"; };
+		D4F7E3301B9332D9006A2547 /* CommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentViewController.h; sourceTree = "<group>"; };
+		D4F7E3311B9332D9006A2547 /* CommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentViewController.m; sourceTree = "<group>"; };
+		D4F7E3341B933969006A2547 /* CommentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentTableViewCell.h; sourceTree = "<group>"; };
+		D4F7E3351B933969006A2547 /* CommentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D445ADBA1B91E70D00208891 /* Notification VC */ = {
+			isa = PBXGroup;
+			children = (
+				D445ADBB1B91E72D00208891 /* NotificationViewController.h */,
+				D445ADBC1B91E72D00208891 /* NotificationViewController.m */,
+			);
+			path = "Notification VC";
+			sourceTree = "<group>";
+		};
 		D48D163E1B8F660300BDE92B /* Main Feed Cv */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +199,9 @@
 		D4B969921B8CCF41000575E5 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D4F7E32F1B9332CC006A2547 /* Comment VC */,
+				D4F7E32B1B933043006A2547 /* Post VC */,
+				D445ADBA1B91E70D00208891 /* Notification VC */,
 				D4CFF1E41B8E173C00B74CFA /* MainFeed Vc */,
 				D4B969A01B8CD08C000575E5 /* LoginView Controller */,
 			);
@@ -225,6 +249,34 @@
 				D48D163E1B8F660300BDE92B /* Main Feed Cv */,
 			);
 			path = "MainFeed Vc";
+			sourceTree = "<group>";
+		};
+		D4F7E32B1B933043006A2547 /* Post VC */ = {
+			isa = PBXGroup;
+			children = (
+				D4F7E32C1B93305A006A2547 /* PostViewController.h */,
+				D4F7E32D1B93305A006A2547 /* PostViewController.m */,
+			);
+			path = "Post VC";
+			sourceTree = "<group>";
+		};
+		D4F7E32F1B9332CC006A2547 /* Comment VC */ = {
+			isa = PBXGroup;
+			children = (
+				D4F7E3331B933934006A2547 /* Comment Cell */,
+				D4F7E3301B9332D9006A2547 /* CommentViewController.h */,
+				D4F7E3311B9332D9006A2547 /* CommentViewController.m */,
+			);
+			path = "Comment VC";
+			sourceTree = "<group>";
+		};
+		D4F7E3331B933934006A2547 /* Comment Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D4F7E3341B933969006A2547 /* CommentTableViewCell.h */,
+				D4F7E3351B933969006A2547 /* CommentTableViewCell.m */,
+			);
+			path = "Comment Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,10 +380,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D445ADBD1B91E72D00208891 /* NotificationViewController.m in Sources */,
 				D48D16441B8F665600BDE92B /* MainFeedCollectionViewCellBottom.m in Sources */,
 				D48D16411B8F663C00BDE92B /* MainFeedCollectionViewCellTop.m in Sources */,
+				D4F7E3361B933969006A2547 /* CommentTableViewCell.m in Sources */,
 				D4B969A31B8CD0A7000575E5 /* LoginViewViewController.m in Sources */,
+				D4F7E32E1B93305A006A2547 /* PostViewController.m in Sources */,
 				D4B969971B8CCF41000575E5 /* AppDelegate.m in Sources */,
+				D4F7E3321B9332D9006A2547 /* CommentViewController.m in Sources */,
 				D4B969681B8CCB43000575E5 /* main.m in Sources */,
 				D4CFF1E71B8E175000B74CFA /* MainFeedViewController.m in Sources */,
 			);

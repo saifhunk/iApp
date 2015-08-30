@@ -12,5 +12,8 @@
 #import "MainFeedCollectionViewCellBottom.h"
 #import "LoginViewViewController.h"
 
+//Cell
+
+#import "CommentTableViewCell.h"
 
 
