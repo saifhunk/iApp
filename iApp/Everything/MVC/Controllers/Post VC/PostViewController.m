@@ -32,6 +32,7 @@
 }
 - (IBAction)actionBtnShare:(id)sender
 {
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (IBAction)actionBtnComment:(id)sender

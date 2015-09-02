@@ -101,24 +101,19 @@
 
 
 - (void)keyboardWasShown:(NSNotification*)aNotification
-
 {
-    
     [self.view layoutIfNeeded];
     [self.view updateConstraintsIfNeeded];
     
     NSDictionary* info = [aNotification userInfo];
     
     CGSize kbSize = [[info objectForKey:UIKeyboardFrameEndUserInfoKey] CGRectValue].size;
-    
-    
+
     
         [UIView animateWithDuration:0.5 animations:^{
             _ConstraintBottom.constant = kbSize.height;
             _constraintTop.constant = -50;
         }];
-    
-    
     
 }
 
@@ -153,7 +148,7 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 
 
