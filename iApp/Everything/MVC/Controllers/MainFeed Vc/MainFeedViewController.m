@@ -22,7 +22,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    
     // Do any additional setup after loading the view.
 }
 
@@ -43,8 +43,8 @@
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
     if (_collectionViewTop == collectionView) {
-
-    return 10;
+        
+        return 10;
     }
     else
     {
@@ -56,16 +56,17 @@
 {
     if (_collectionViewTop == collectionView) {
         
-    
-    MainFeedCollectionViewCellTop * cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"MainFeedCollectionViewCellTop" forIndexPath:indexPath];
+        
+        MainFeedCollectionViewCellTop * cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"MainFeedCollectionViewCellTop" forIndexPath:indexPath];
         CGRect height = [[UIScreen mainScreen]bounds];
         
         if (Height4s == height.size.height) {
             
             cell.constraintBtnEye.constant = 10;
         }
+        cell.indexpath = indexPath;
+        cell.DelegateJournlist = self;
         return cell;
-        
         
     }
     
@@ -73,7 +74,7 @@
     {
         MainFeedCollectionViewCellBottom * cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"MainFeedCollectionViewCellBottom" forIndexPath:indexPath];
         return cell;
- 
+        
     }
     
 }
@@ -88,18 +89,23 @@
 {
     if (_collectionViewTop == collectionView) {
         
-
-
-    return CGSizeMake(self.collectionViewTop.frame.size.width,self.collectionViewTop.frame.size.height);
+        
+        
+        return CGSizeMake(self.collectionViewTop.frame.size.width,self.collectionViewTop.frame.size.height);
     }
     else
     {
         return CGSizeMake(self.collectionViewBottom.frame.size.width/2.2,self.collectionViewBottom.frame.size.height);
     }
-
+    
 }
 
+#pragma mark - Custom Delegate
 
+-(void)BtnJournlistClicked:(NSIndexPath *)indepath
+{
+    [self performSegueWithIdentifier:@"SegueJournalist" sender:self];
+}
 
 #pragma mark - IBAction
 

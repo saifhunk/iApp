@@ -5,3 +5,61 @@
   Created by Saif Chaudhary on 03/06/1937 SAKA.
   Copyright (c) 1937 SAKA Saif Chaudhary. All rights reserved.
 */
+
+//LANDING VIEW
+
+"labelAppName" = "Found Nemo";
+"tfEmail" = "Username";
+"tfPassword" = "Password";
+"btnLogin" = "LOGIN";
+"labelLoginUsing" = "Or Login Using";
+"btnSignUp" = "SIGN UP";
+
+//LOGIN VIEWå
+"btnForgotPassword" = "Forgot Password ?";
+"labelLogin" = "Login";
+
+//REGISTER VIEW
+
+"labelSignUp" = "Sign Up";
+"labelName" = "Name";
+"labelEmail" = "Email";
+"labelGender" = "Gender";
+"labelCity" = "City";
+"btnMale" = "Male";
+"btnFemale" = "Female";
+"tfCurrentLocation" = "Current Location";
+"btnCancel" = "Cancel";
+"btnNext" = "Next";
+"tfPassword" = "Password";
+"tfReEnterPassword" = "Re-enter Password";
+"tfName" = "User Name";
+"tfEmail" = "xyz@xyz.com";
+
+//ADD IMAGE VIEW
+
+"btnAddImage" = "Add Picture";
+"btnDone" = "Done";
+"titleSelectImage" = "Select the image:";
+"optionCamera" = "Camera";
+"optionGallery" = "Gallery";
+
+//SETTING VIEW
+
+"labelUpdateInfo" = "Update Info";
+"labelNoti" = "Notifications";
+"labelPrivacy" = "Privacy";
+"labelAccount" = "Account";
+"labelLogout" = "Logout";
+
+//UPDATE INFO VIEW
+
+"btnSave" = "Save";
+"btnBack" = "Back";
+"btnChangeImage" = "Change Picture";
+
+//ACCOUNT VIEW
+
+"labelAccount" = "Account";
+"btnDeactivateAccount" = "Deactivate Account";
+"btnDeleteAccount" = "Delete Account";

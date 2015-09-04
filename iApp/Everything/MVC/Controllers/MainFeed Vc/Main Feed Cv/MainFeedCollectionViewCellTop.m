@@ -15,4 +15,13 @@
     self.ImageViewPerson.layer.cornerRadius = self.ImageViewPerson.frame.size.height/2;
 }
 
+- (IBAction)actionBtnJournalist:(id)sender {
+    
+    [_DelegateJournlist BtnJournlistClicked:_indexpath];
+}
+
+- (IBAction)actionBtnEyeWitness:(id)sender {
+    [_DelegateJournlist BtnJournlistClicked:_indexpath];
+
+}
 @end

@@ -8,8 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		D445ADBD1B91E72D00208891 /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D445ADBC1B91E72D00208891 /* NotificationViewController.m */; };
+		D47D080F1B99F06B009AC81A /* AddImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D47D080E1B99F06B009AC81A /* AddImageViewController.m */; };
+		D47D08131B99F577009AC81A /* NewPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D47D08121B99F577009AC81A /* NewPostViewController.m */; };
+		D47D08171B99F5AD009AC81A /* EyeWitnessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D47D08161B99F5AD009AC81A /* EyeWitnessViewController.m */; };
+		D47D081B1B99F5D8009AC81A /* SettingVcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D47D081A1B99F5D8009AC81A /* SettingVcViewController.m */; };
+		D47D081F1B9A01CA009AC81A /* JournalistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D47D081E1B9A01CA009AC81A /* JournalistViewController.m */; };
 		D48D16411B8F663C00BDE92B /* MainFeedCollectionViewCellTop.m in Sources */ = {isa = PBXBuildFile; fileRef = D48D16401B8F663C00BDE92B /* MainFeedCollectionViewCellTop.m */; };
 		D48D16441B8F665600BDE92B /* MainFeedCollectionViewCellBottom.m in Sources */ = {isa = PBXBuildFile; fileRef = D48D16431B8F665600BDE92B /* MainFeedCollectionViewCellBottom.m */; };
+		D497D1AB1B98AECC00A844F2 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D497D1AA1B98AECC00A844F2 /* RegisterViewController.m */; };
 		D4B969681B8CCB43000575E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B969671B8CCB43000575E5 /* main.m */; };
 		D4B969731B8CCB44000575E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4B969721B8CCB44000575E5 /* Images.xcassets */; };
 		D4B969821B8CCB44000575E5 /* iAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B969811B8CCB44000575E5 /* iAppTests.m */; };
@@ -37,11 +43,23 @@
 /* Begin PBXFileReference section */
 		D445ADBB1B91E72D00208891 /* NotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
 		D445ADBC1B91E72D00208891 /* NotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
+		D47D080D1B99F06B009AC81A /* AddImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddImageViewController.h; sourceTree = "<group>"; };
+		D47D080E1B99F06B009AC81A /* AddImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddImageViewController.m; sourceTree = "<group>"; };
+		D47D08111B99F577009AC81A /* NewPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewPostViewController.h; sourceTree = "<group>"; };
+		D47D08121B99F577009AC81A /* NewPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewPostViewController.m; sourceTree = "<group>"; };
+		D47D08151B99F5AD009AC81A /* EyeWitnessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EyeWitnessViewController.h; sourceTree = "<group>"; };
+		D47D08161B99F5AD009AC81A /* EyeWitnessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EyeWitnessViewController.m; sourceTree = "<group>"; };
+		D47D08191B99F5D7009AC81A /* SettingVcViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingVcViewController.h; sourceTree = "<group>"; };
+		D47D081A1B99F5D8009AC81A /* SettingVcViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingVcViewController.m; sourceTree = "<group>"; };
+		D47D081D1B9A01CA009AC81A /* JournalistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JournalistViewController.h; sourceTree = "<group>"; };
+		D47D081E1B9A01CA009AC81A /* JournalistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JournalistViewController.m; sourceTree = "<group>"; };
 		D48D163F1B8F663C00BDE92B /* MainFeedCollectionViewCellTop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainFeedCollectionViewCellTop.h; sourceTree = "<group>"; };
 		D48D16401B8F663C00BDE92B /* MainFeedCollectionViewCellTop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainFeedCollectionViewCellTop.m; sourceTree = "<group>"; };
 		D48D16421B8F665600BDE92B /* MainFeedCollectionViewCellBottom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainFeedCollectionViewCellBottom.h; sourceTree = "<group>"; };
 		D48D16431B8F665600BDE92B /* MainFeedCollectionViewCellBottom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainFeedCollectionViewCellBottom.m; sourceTree = "<group>"; };
 		D48D16451B8F6AAA00BDE92B /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Header.h; path = iApp/Everything/Header.h; sourceTree = SOURCE_ROOT; };
+		D497D1A91B98AECC00A844F2 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		D497D1AA1B98AECC00A844F2 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		D4B969621B8CCB43000575E5 /* iApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4B969661B8CCB43000575E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4B969671B8CCB43000575E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -93,6 +111,52 @@
 			path = "Notification VC";
 			sourceTree = "<group>";
 		};
+		D47D080C1B99F06B009AC81A /* AddImageVC */ = {
+			isa = PBXGroup;
+			children = (
+				D47D080D1B99F06B009AC81A /* AddImageViewController.h */,
+				D47D080E1B99F06B009AC81A /* AddImageViewController.m */,
+			);
+			path = AddImageVC;
+			sourceTree = "<group>";
+		};
+		D47D08101B99F561009AC81A /* New Post VC */ = {
+			isa = PBXGroup;
+			children = (
+				D47D08111B99F577009AC81A /* NewPostViewController.h */,
+				D47D08121B99F577009AC81A /* NewPostViewController.m */,
+			);
+			path = "New Post VC";
+			sourceTree = "<group>";
+		};
+		D47D08141B99F59C009AC81A /* Eye Witness VC */ = {
+			isa = PBXGroup;
+			children = (
+				D47D08151B99F5AD009AC81A /* EyeWitnessViewController.h */,
+				D47D08161B99F5AD009AC81A /* EyeWitnessViewController.m */,
+			);
+			path = "Eye Witness VC";
+			sourceTree = "<group>";
+		};
+		D47D08181B99F5C8009AC81A /* Setting VC */ = {
+			isa = PBXGroup;
+			children = (
+				D47D08191B99F5D7009AC81A /* SettingVcViewController.h */,
+				D47D081A1B99F5D8009AC81A /* SettingVcViewController.m */,
+			);
+			path = "Setting VC";
+			sourceTree = "<group>";
+		};
+		D47D081C1B9A017B009AC81A /* Journalist VC */ = {
+			isa = PBXGroup;
+			children = (
+				D47D081D1B9A01CA009AC81A /* JournalistViewController.h */,
+				D47D081E1B9A01CA009AC81A /* JournalistViewController.m */,
+			);
+			name = "Journalist VC";
+			path = Journalist;
+			sourceTree = "<group>";
+		};
 		D48D163E1B8F660300BDE92B /* Main Feed Cv */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +174,15 @@
 				D48D16451B8F6AAA00BDE92B /* Header.h */,
 			);
 			path = Header;
+			sourceTree = "<group>";
+		};
+		D497D1A81B98AECC00A844F2 /* RegisterVC */ = {
+			isa = PBXGroup;
+			children = (
+				D497D1A91B98AECC00A844F2 /* RegisterViewController.h */,
+				D497D1AA1B98AECC00A844F2 /* RegisterViewController.m */,
+			);
+			path = RegisterVC;
 			sourceTree = "<group>";
 		};
 		D4B969591B8CCB43000575E5 = {
@@ -199,6 +272,12 @@
 		D4B969921B8CCF41000575E5 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D47D081C1B9A017B009AC81A /* Journalist VC */,
+				D47D08181B99F5C8009AC81A /* Setting VC */,
+				D47D08141B99F59C009AC81A /* Eye Witness VC */,
+				D47D08101B99F561009AC81A /* New Post VC */,
+				D47D080C1B99F06B009AC81A /* AddImageVC */,
+				D497D1A81B98AECC00A844F2 /* RegisterVC */,
 				D4F7E32F1B9332CC006A2547 /* Comment VC */,
 				D4F7E32B1B933043006A2547 /* Post VC */,
 				D445ADBA1B91E70D00208891 /* Notification VC */,
@@ -380,16 +459,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D497D1AB1B98AECC00A844F2 /* RegisterViewController.m in Sources */,
 				D445ADBD1B91E72D00208891 /* NotificationViewController.m in Sources */,
+				D47D080F1B99F06B009AC81A /* AddImageViewController.m in Sources */,
 				D48D16441B8F665600BDE92B /* MainFeedCollectionViewCellBottom.m in Sources */,
+				D47D08131B99F577009AC81A /* NewPostViewController.m in Sources */,
 				D48D16411B8F663C00BDE92B /* MainFeedCollectionViewCellTop.m in Sources */,
 				D4F7E3361B933969006A2547 /* CommentTableViewCell.m in Sources */,
 				D4B969A31B8CD0A7000575E5 /* LoginViewViewController.m in Sources */,
+				D47D08171B99F5AD009AC81A /* EyeWitnessViewController.m in Sources */,
 				D4F7E32E1B93305A006A2547 /* PostViewController.m in Sources */,
 				D4B969971B8CCF41000575E5 /* AppDelegate.m in Sources */,
 				D4F7E3321B9332D9006A2547 /* CommentViewController.m in Sources */,
 				D4B969681B8CCB43000575E5 /* main.m in Sources */,
+				D47D081B1B99F5D8009AC81A /* SettingVcViewController.m in Sources */,
 				D4CFF1E71B8E175000B74CFA /* MainFeedViewController.m in Sources */,
+				D47D081F1B9A01CA009AC81A /* JournalistViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

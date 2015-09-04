@@ -8,13 +8,15 @@
 
 #import <UIKit/UIKit.h>
 #import "Header.h"
+#import "MainFeedCollectionViewCellTop.h"
 
-@interface MainFeedViewController : UIViewController<UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout>
+
+@interface MainFeedViewController : UIViewController<UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout,JournlistClicked>
+
 
 #pragma mark - IBOutlet
 
 @property (weak, nonatomic) IBOutlet UIButton *btnFilter;
-
 @property (weak, nonatomic) IBOutlet UIButton *btnGroup;
 @property (weak, nonatomic) IBOutlet UIButton *btnFeed;
 

@@ -7,13 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+@protocol JournlistClicked
+
+-(void)BtnJournlistClicked:(NSIndexPath *)indepath;
+
+@end
+
+
 
 @interface MainFeedCollectionViewCellTop : UICollectionViewCell
 
+@property(nonatomic,strong)NSIndexPath * indexpath;
+@property(nonatomic,assign)id<JournlistClicked>DelegateJournlist;
 @property (weak, nonatomic) IBOutlet UIImageView *ImageVIewBack;
-
 @property (weak, nonatomic) IBOutlet UIView *ViewInfo;
-
 @property (weak, nonatomic) IBOutlet UIImageView *ImageViewPerson;
 @property (weak, nonatomic) IBOutlet UILabel *labelName;
 
@@ -24,5 +31,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *btnEye;
 
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *constraintBtnEye;
+- (IBAction)actionBtnJournalist:(id)sender;
+- (IBAction)actionBtnEyeWitness:(id)sender;
 
 @end
