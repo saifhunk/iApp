@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D43ADBD61B9C9F6A007F14A7 /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D43ADBD51B9C9F6A007F14A7 /* 12.jpg */; };
+		D43ADBDA1B9C9FD4007F14A7 /* EditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D43ADBD91B9C9FD4007F14A7 /* EditProfileViewController.m */; };
 		D445ADBD1B91E72D00208891 /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D445ADBC1B91E72D00208891 /* NotificationViewController.m */; };
 		D46A8E3A1B9B43E000F4CB42 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D46A8E351B9B43DF00F4CB42 /* 1.jpg */; };
 		D46A8E3B1B9B43E000F4CB42 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D46A8E361B9B43E000F4CB42 /* 2.jpg */; };
@@ -49,6 +51,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D43ADBD51B9C9F6A007F14A7 /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
+		D43ADBD81B9C9FD4007F14A7 /* EditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditProfileViewController.h; sourceTree = "<group>"; };
+		D43ADBD91B9C9FD4007F14A7 /* EditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProfileViewController.m; sourceTree = "<group>"; };
 		D445ADBB1B91E72D00208891 /* NotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
 		D445ADBC1B91E72D00208891 /* NotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
 		D46A8E351B9B43DF00F4CB42 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
@@ -122,6 +127,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D43ADBD71B9C9FBE007F14A7 /* EditProfile VC */ = {
+			isa = PBXGroup;
+			children = (
+				D43ADBD81B9C9FD4007F14A7 /* EditProfileViewController.h */,
+				D43ADBD91B9C9FD4007F14A7 /* EditProfileViewController.m */,
+			);
+			path = "EditProfile VC";
+			sourceTree = "<group>";
+		};
 		D445ADBA1B91E70D00208891 /* Notification VC */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +148,7 @@
 		D46A8E341B9B43BF00F4CB42 /* Dummy images */ = {
 			isa = PBXGroup;
 			children = (
+				D43ADBD51B9C9F6A007F14A7 /* 12.jpg */,
 				D46A8E351B9B43DF00F4CB42 /* 1.jpg */,
 				D46A8E361B9B43E000F4CB42 /* 2.jpg */,
 				D46A8E371B9B43E000F4CB42 /* 3.jpg */,
@@ -332,6 +347,7 @@
 		D4B969921B8CCF41000575E5 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D43ADBD71B9C9FBE007F14A7 /* EditProfile VC */,
 				D4E352581B9C430600D49D09 /* CategoryViewConroller */,
 				D47D081C1B9A017B009AC81A /* Journalist VC */,
 				D47D08181B99F5C8009AC81A /* Setting VC */,
@@ -520,6 +536,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D46A8E3D1B9B43E000F4CB42 /* 4.jpg in Resources */,
+				D43ADBD61B9C9F6A007F14A7 /* 12.jpg in Resources */,
 				D46A8E3B1B9B43E000F4CB42 /* 2.jpg in Resources */,
 				D4B969991B8CCF41000575E5 /* Main.storyboard in Resources */,
 				D46A8E3E1B9B43E000F4CB42 /* 5.jpg in Resources */,
@@ -553,6 +570,7 @@
 				D48D16441B8F665600BDE92B /* MainFeedCollectionViewCellBottom.m in Sources */,
 				D47D08131B99F577009AC81A /* NewPostViewController.m in Sources */,
 				D48D16411B8F663C00BDE92B /* MainFeedCollectionViewCellTop.m in Sources */,
+				D43ADBDA1B9C9FD4007F14A7 /* EditProfileViewController.m in Sources */,
 				D4F7E3361B933969006A2547 /* CommentTableViewCell.m in Sources */,
 				D4B969A31B8CD0A7000575E5 /* LoginViewViewController.m in Sources */,
 				D47D08171B99F5AD009AC81A /* EyeWitnessViewController.m in Sources */,

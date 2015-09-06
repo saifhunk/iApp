@@ -29,6 +29,8 @@
 -(void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -38,7 +40,7 @@
 
 -(void)SetupUI
 {
-    _arrayDataTop = [[NSArray alloc]initWithObjects:@"1.jpg",@"2.jpg",@"3.jpg",@"4.jpg",@"5.jpg", nil];
+        _arrayDataTop = [[NSArray alloc]initWithObjects:@"1.jpg",@"2.jpg",@"3.jpg",@"4.jpg",@"5.jpg", nil];
     _arrayDataBottom = [[NSArray alloc]initWithObjects:@"5.jpg",@"3.jpg",@"4.jpg",@"1.jpg",@"2.jpg", nil];
 
 }
