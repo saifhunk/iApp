@@ -10,4 +10,5 @@
 
 @interface SettingVcViewController : UIViewController
 
+- (IBAction)actionBtnLogout:(id)sender;
 @end

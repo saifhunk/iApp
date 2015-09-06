@@ -43,10 +43,10 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:simpleTableIdentifier];
     }
     
-    cell.textLabel.text = @"dfdinitWithStyle:UITableViewCellStyleDefaultinitWithStyle:";
+    cell.textLabel.text = @"it is now official that the final agreement on the Iranian nuclear program";
     cell.detailTextLabel.text = @"5 hours ago";
     cell.imageView.layer.cornerRadius = 40;
-    cell.imageView.image = [UIImage imageNamed:@"ic_notification_center"];
+    cell.imageView.image = [UIImage imageNamed:@"Contacts-50"];
     UIButton * button = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 10, 10)];
     button.backgroundColor = [UIColor colorWithRed:60/255.0f green:158/255.0f blue:166/255.0f alpha:1];
     button.layer.cornerRadius  = 5;

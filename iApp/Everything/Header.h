@@ -7,13 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "identifers.h"
+#import "Segue.h"
 #import "MainFeedViewController.h"
 #import "MainFeedCollectionViewCellTop.h"
 #import "MainFeedCollectionViewCellBottom.h"
 #import "LoginViewViewController.h"
+#import "CategoryCollectionViewCell.h"
+
 
 //Cell
 
 #import "CommentTableViewCell.h"
+#import "CategoryCollectionViewCell.h"
+
 
 

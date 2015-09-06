@@ -13,6 +13,11 @@
 
 @interface MainFeedViewController : UIViewController<UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout,JournlistClicked>
 
+#pragma mark - Custom property
+
+@property(nonatomic,strong)NSArray * arrayDataTop;
+@property(nonatomic,strong)NSArray * arrayDataBottom;
+
 
 #pragma mark - IBOutlet
 

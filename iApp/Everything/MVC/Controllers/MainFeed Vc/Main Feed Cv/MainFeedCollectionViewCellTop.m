@@ -21,7 +21,7 @@
 }
 
 - (IBAction)actionBtnEyeWitness:(id)sender {
-    [_DelegateJournlist BtnJournlistClicked:_indexpath];
+    //[_DelegateJournlist BtnJournlistClicked:_indexpath];
 
 }
 @end
