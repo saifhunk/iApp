@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>E9B866E4-C100-4846-824D-BE875C0C2DF4</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>iApp</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>2DA6865717B07653AA9AC61208A20976C7FA08EC</key>
 		<string>https://github.com/saifhunk/iApp.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>iApp.xcodeproj/project.xcworkspace</string>
+	<string>iApp.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>2DA6865717B07653AA9AC61208A20976C7FA08EC</key>

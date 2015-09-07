@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface EditProfileViewController : UIViewController
+@interface EditProfileViewController : UIViewController<UIImagePickerControllerDelegate,UINavigationBarDelegate,UIActionSheetDelegate>
 
 #pragma mark - IBOutlet
 

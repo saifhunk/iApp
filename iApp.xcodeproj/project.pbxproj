@@ -63,6 +63,7 @@
 		D46A8E391B9B43E000F4CB42 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
 		D46A8E421B9B476B00F4CB42 /* identifers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = identifers.h; sourceTree = "<group>"; };
 		D46A8E451B9B483100F4CB42 /* Segue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Segue.h; sourceTree = "<group>"; };
+		D470D1FE1B9DEE8F0048A9EE /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		D47D080D1B99F06B009AC81A /* AddImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddImageViewController.h; sourceTree = "<group>"; };
 		D47D080E1B99F06B009AC81A /* AddImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddImageViewController.m; sourceTree = "<group>"; };
 		D47D08111B99F577009AC81A /* NewPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewPostViewController.h; sourceTree = "<group>"; };
@@ -182,6 +183,14 @@
 			path = Header;
 			sourceTree = "<group>";
 		};
+		D470D1FD1B9DEE740048A9EE /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				D470D1FE1B9DEE8F0048A9EE /* Constants.h */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
 		D47D080C1B99F06B009AC81A /* AddImageVC */ = {
 			isa = PBXGroup;
 			children = (
@@ -242,6 +251,7 @@
 		D48D16481B8F6ABB00BDE92B /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
+				D470D1FD1B9DEE740048A9EE /* Constant */,
 				D46A8E411B9B46EB00F4CB42 /* Header */,
 				D46A8E401B9B46A600F4CB42 /* identifiers */,
 				D46A8E3F1B9B468C00F4CB42 /* Segue */,
