@@ -32,9 +32,6 @@
     [[self navigationController] setNavigationBarHidden:YES animated:NO];
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
 
-
-    
-
 }
 
 - (void)didReceiveMemoryWarning {
@@ -140,6 +137,8 @@
 }
 
 - (IBAction)actionFeed:(id)sender {
+    
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 @end

@@ -21,6 +21,7 @@
 
 #import "CommentTableViewCell.h"
 #import "CategoryCollectionViewCell.h"
+#import "dialCellCollectionViewCell.h"
 
 
 

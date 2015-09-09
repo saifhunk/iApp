@@ -10,6 +10,9 @@
 		D43ADBD61B9C9F6A007F14A7 /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D43ADBD51B9C9F6A007F14A7 /* 12.jpg */; };
 		D43ADBDA1B9C9FD4007F14A7 /* EditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D43ADBD91B9C9FD4007F14A7 /* EditProfileViewController.m */; };
 		D445ADBD1B91E72D00208891 /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D445ADBC1B91E72D00208891 /* NotificationViewController.m */; };
+		D462DF021BA06D1700B3BACF /* AWCollectionViewDialLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D462DF011BA06D1700B3BACF /* AWCollectionViewDialLayout.m */; };
+		D462DF0E1BA06F2000B3BACF /* dialCellCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D462DF0C1BA06F2000B3BACF /* dialCellCollectionViewCell.m */; };
+		D462DF0F1BA06F2000B3BACF /* dialCellCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D462DF0D1BA06F2000B3BACF /* dialCellCollectionViewCell.xib */; };
 		D46A8E3A1B9B43E000F4CB42 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D46A8E351B9B43DF00F4CB42 /* 1.jpg */; };
 		D46A8E3B1B9B43E000F4CB42 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D46A8E361B9B43E000F4CB42 /* 2.jpg */; };
 		D46A8E3C1B9B43E000F4CB42 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D46A8E371B9B43E000F4CB42 /* 3.jpg */; };
@@ -56,6 +59,11 @@
 		D43ADBD91B9C9FD4007F14A7 /* EditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProfileViewController.m; sourceTree = "<group>"; };
 		D445ADBB1B91E72D00208891 /* NotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
 		D445ADBC1B91E72D00208891 /* NotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
+		D462DF001BA06D1700B3BACF /* AWCollectionViewDialLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWCollectionViewDialLayout.h; sourceTree = "<group>"; };
+		D462DF011BA06D1700B3BACF /* AWCollectionViewDialLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWCollectionViewDialLayout.m; sourceTree = "<group>"; };
+		D462DF0B1BA06F2000B3BACF /* dialCellCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dialCellCollectionViewCell.h; sourceTree = "<group>"; };
+		D462DF0C1BA06F2000B3BACF /* dialCellCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dialCellCollectionViewCell.m; sourceTree = "<group>"; };
+		D462DF0D1BA06F2000B3BACF /* dialCellCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = dialCellCollectionViewCell.xib; sourceTree = "<group>"; };
 		D46A8E351B9B43DF00F4CB42 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		D46A8E361B9B43E000F4CB42 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		D46A8E371B9B43E000F4CB42 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
@@ -144,6 +152,15 @@
 				D445ADBC1B91E72D00208891 /* NotificationViewController.m */,
 			);
 			path = "Notification VC";
+			sourceTree = "<group>";
+		};
+		D462DEFF1BA06CEC00B3BACF /* 3rd party */ = {
+			isa = PBXGroup;
+			children = (
+				D462DF001BA06D1700B3BACF /* AWCollectionViewDialLayout.h */,
+				D462DF011BA06D1700B3BACF /* AWCollectionViewDialLayout.m */,
+			);
+			path = "3rd party";
 			sourceTree = "<group>";
 		};
 		D46A8E341B9B43BF00F4CB42 /* Dummy images */ = {
@@ -326,6 +343,7 @@
 		D4B9698D1B8CCF41000575E5 /* Everything */ = {
 			isa = PBXGroup;
 			children = (
+				D462DEFF1BA06CEC00B3BACF /* 3rd party */,
 				D46A8E341B9B43BF00F4CB42 /* Dummy images */,
 				D48D16481B8F6ABB00BDE92B /* Header Files */,
 				D4B9699A1B8CCFA8000575E5 /* Localization */,
@@ -430,6 +448,9 @@
 		D4E3525C1B9C434500D49D09 /* CategoryCell CV */ = {
 			isa = PBXGroup;
 			children = (
+				D462DF0B1BA06F2000B3BACF /* dialCellCollectionViewCell.h */,
+				D462DF0C1BA06F2000B3BACF /* dialCellCollectionViewCell.m */,
+				D462DF0D1BA06F2000B3BACF /* dialCellCollectionViewCell.xib */,
 				D4E3525D1B9C437A00D49D09 /* CategoryCollectionViewCell.h */,
 				D4E3525E1B9C437A00D49D09 /* CategoryCollectionViewCell.m */,
 				D4E3525F1B9C437A00D49D09 /* CategoryCollectionViewCell.xib */,
@@ -549,6 +570,7 @@
 				D43ADBD61B9C9F6A007F14A7 /* 12.jpg in Resources */,
 				D46A8E3B1B9B43E000F4CB42 /* 2.jpg in Resources */,
 				D4B969991B8CCF41000575E5 /* Main.storyboard in Resources */,
+				D462DF0F1BA06F2000B3BACF /* dialCellCollectionViewCell.xib in Resources */,
 				D46A8E3E1B9B43E000F4CB42 /* 5.jpg in Resources */,
 				D4B9699D1B8CCFFA000575E5 /* LocalizeHelper.strings in Resources */,
 				D4B969981B8CCF41000575E5 /* LaunchScreen.xib in Resources */,
@@ -575,6 +597,7 @@
 			files = (
 				D4E352601B9C437A00D49D09 /* CategoryCollectionViewCell.m in Sources */,
 				D497D1AB1B98AECC00A844F2 /* RegisterViewController.m in Sources */,
+				D462DF021BA06D1700B3BACF /* AWCollectionViewDialLayout.m in Sources */,
 				D445ADBD1B91E72D00208891 /* NotificationViewController.m in Sources */,
 				D47D080F1B99F06B009AC81A /* AddImageViewController.m in Sources */,
 				D48D16441B8F665600BDE92B /* MainFeedCollectionViewCellBottom.m in Sources */,
@@ -592,6 +615,7 @@
 				D47D081B1B99F5D8009AC81A /* SettingVcViewController.m in Sources */,
 				D4CFF1E71B8E175000B74CFA /* MainFeedViewController.m in Sources */,
 				D47D081F1B9A01CA009AC81A /* JournalistViewController.m in Sources */,
+				D462DF0E1BA06F2000B3BACF /* dialCellCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
