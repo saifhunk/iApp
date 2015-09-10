@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "Header.h"
-#import "AWCollectionViewDialLayout.h"
 
 @interface CategoryViewConroller : UIViewController<UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout>
 
@@ -22,7 +21,6 @@
 
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionViewFavorite;
 @property (weak, nonatomic) IBOutlet UICollectionView *CollectionViewCategory;
-@property (weak, nonatomic) IBOutlet NSLayoutConstraint *HeightCollectionViewCategory;
 
 #pragma mark - IBAction
 

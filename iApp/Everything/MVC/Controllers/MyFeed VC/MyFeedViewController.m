@@ -1,22 +1,20 @@
 //
-//  MainFeedViewController.m
+//  MyFeedViewController.m
 //  iApp
 //
-//  Created by Saif Chaudhary on 04/06/1937 SAKA.
-//  Copyright (c) 1937 SAKA Saif Chaudhary. All rights reserved.
+//  Created by Saif Chaudhary on 9/10/15.
+//  Copyright (c) 2015 Saif Chaudhary. All rights reserved.
+//
 
-#import "MainFeedViewController.h"
+#import "MyFeedViewController.h"
 
-
-
-@interface MainFeedViewController ()
-
+@interface MyFeedViewController ()
 
 @end
+
 #define Height4s 480
 
-@implementation MainFeedViewController
-
+@implementation MyFeedViewController
 
 #pragma mark - ViewHeirarchy
 
@@ -31,10 +29,7 @@
     [super viewWillAppear:animated];
     [[self navigationController] setNavigationBarHidden:YES animated:NO];
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
-
-
     
-
 }
 
 - (void)didReceiveMemoryWarning {
@@ -44,10 +39,15 @@
 
 -(void)SetupUI
 {
-        _arrayDataTop = [[NSArray alloc]initWithObjects:@"1.jpg",@"2.jpg",@"3.jpg",@"4.jpg",@"5.jpg", nil];
-    _arrayDataBottom = [[NSArray alloc]initWithObjects:@"5.jpg",@"3.jpg",@"4.jpg",@"1.jpg",@"2.jpg", nil];
-
+    _arrayDataBottom = [[NSArray alloc]initWithObjects:@"1.jpg",@"2.jpg",@"3.jpg",@"4.jpg",@"5.jpg", nil];
+    _arrayDataTop = [[NSArray alloc]initWithObjects:@"5.jpg",@"3.jpg",@"4.jpg",@"1.jpg",@"2.jpg", nil];
+    _imageViewPerson.layer.cornerRadius = _imageViewPerson.frame.size.height/2;
+    _viewBackgroundImage.layer.cornerRadius = _viewBackgroundImage.frame.size.height/2;
+    _viewBackgroundImage.layer.borderWidth = 2.0f;
+    _viewBackgroundImage.layer.borderColor = [UIColor whiteColor].CGColor;
+    
 }
+
 
 #pragma mark - ViewHeirarchy
 
@@ -81,7 +81,6 @@
         cell.labelDetails.text= @"Coming Soon";
         cell.labelWebsite.text = @"wwww.superman.com";
         cell.indexpath = indexPath;
-        cell.DelegateJournlist = self;
         return cell;
         
     }
@@ -121,27 +120,15 @@
     
 }
 
-#pragma mark - Custom Delegate
 
--(void)BtnJournlistClicked:(NSIndexPath *)indepath
-{
-    [self performSegueWithIdentifier:SegueJournalist sender:self];
-}
 
-#pragma mark - IBAction
-
-- (IBAction)actionBtnGroup:(id)sender {
-}
-
-- (IBAction)actionBtnProfile:(id)sender {
-}
-
-- (IBAction)actionBnFilter:(id)sender {
-    
+- (IBAction)actionBtnClose:(id)sender {
     [self.navigationController popViewControllerAnimated:YES];
 }
 
-- (IBAction)actionFeed:(id)sender {
+- (IBAction)actionBtnSettings:(id)sender {
 }
 
+- (IBAction)actionBtnAddPost:(id)sender {
+}
 @end

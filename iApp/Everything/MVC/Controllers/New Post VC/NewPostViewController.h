@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface NewPostViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIImageView *imageViewPerson;
+@property (weak, nonatomic) IBOutlet UILabel *labelName;
 
+@property (weak, nonatomic) IBOutlet UITextView *textViewLink;
+@property (weak, nonatomic) IBOutlet UITextView *textViewTags;
 @end

@@ -10,9 +10,6 @@
 		D43ADBD61B9C9F6A007F14A7 /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D43ADBD51B9C9F6A007F14A7 /* 12.jpg */; };
 		D43ADBDA1B9C9FD4007F14A7 /* EditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D43ADBD91B9C9FD4007F14A7 /* EditProfileViewController.m */; };
 		D445ADBD1B91E72D00208891 /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D445ADBC1B91E72D00208891 /* NotificationViewController.m */; };
-		D462DF021BA06D1700B3BACF /* AWCollectionViewDialLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D462DF011BA06D1700B3BACF /* AWCollectionViewDialLayout.m */; };
-		D462DF0E1BA06F2000B3BACF /* dialCellCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D462DF0C1BA06F2000B3BACF /* dialCellCollectionViewCell.m */; };
-		D462DF0F1BA06F2000B3BACF /* dialCellCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D462DF0D1BA06F2000B3BACF /* dialCellCollectionViewCell.xib */; };
 		D46A8E3A1B9B43E000F4CB42 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D46A8E351B9B43DF00F4CB42 /* 1.jpg */; };
 		D46A8E3B1B9B43E000F4CB42 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D46A8E361B9B43E000F4CB42 /* 2.jpg */; };
 		D46A8E3C1B9B43E000F4CB42 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D46A8E371B9B43E000F4CB42 /* 3.jpg */; };
@@ -23,6 +20,7 @@
 		D47D08171B99F5AD009AC81A /* EyeWitnessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D47D08161B99F5AD009AC81A /* EyeWitnessViewController.m */; };
 		D47D081B1B99F5D8009AC81A /* SettingVcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D47D081A1B99F5D8009AC81A /* SettingVcViewController.m */; };
 		D47D081F1B9A01CA009AC81A /* JournalistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D47D081E1B9A01CA009AC81A /* JournalistViewController.m */; };
+		D48731591BA1F16800B4160B /* MyFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48731581BA1F16800B4160B /* MyFeedViewController.m */; };
 		D48D16411B8F663C00BDE92B /* MainFeedCollectionViewCellTop.m in Sources */ = {isa = PBXBuildFile; fileRef = D48D16401B8F663C00BDE92B /* MainFeedCollectionViewCellTop.m */; };
 		D48D16441B8F665600BDE92B /* MainFeedCollectionViewCellBottom.m in Sources */ = {isa = PBXBuildFile; fileRef = D48D16431B8F665600BDE92B /* MainFeedCollectionViewCellBottom.m */; };
 		D497D1AB1B98AECC00A844F2 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D497D1AA1B98AECC00A844F2 /* RegisterViewController.m */; };
@@ -59,11 +57,6 @@
 		D43ADBD91B9C9FD4007F14A7 /* EditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProfileViewController.m; sourceTree = "<group>"; };
 		D445ADBB1B91E72D00208891 /* NotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
 		D445ADBC1B91E72D00208891 /* NotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
-		D462DF001BA06D1700B3BACF /* AWCollectionViewDialLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWCollectionViewDialLayout.h; sourceTree = "<group>"; };
-		D462DF011BA06D1700B3BACF /* AWCollectionViewDialLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWCollectionViewDialLayout.m; sourceTree = "<group>"; };
-		D462DF0B1BA06F2000B3BACF /* dialCellCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dialCellCollectionViewCell.h; sourceTree = "<group>"; };
-		D462DF0C1BA06F2000B3BACF /* dialCellCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dialCellCollectionViewCell.m; sourceTree = "<group>"; };
-		D462DF0D1BA06F2000B3BACF /* dialCellCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = dialCellCollectionViewCell.xib; sourceTree = "<group>"; };
 		D46A8E351B9B43DF00F4CB42 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		D46A8E361B9B43E000F4CB42 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		D46A8E371B9B43E000F4CB42 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
@@ -82,6 +75,8 @@
 		D47D081A1B99F5D8009AC81A /* SettingVcViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingVcViewController.m; sourceTree = "<group>"; };
 		D47D081D1B9A01CA009AC81A /* JournalistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JournalistViewController.h; sourceTree = "<group>"; };
 		D47D081E1B9A01CA009AC81A /* JournalistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JournalistViewController.m; sourceTree = "<group>"; };
+		D48731571BA1F16800B4160B /* MyFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFeedViewController.h; sourceTree = "<group>"; };
+		D48731581BA1F16800B4160B /* MyFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFeedViewController.m; sourceTree = "<group>"; };
 		D48D163F1B8F663C00BDE92B /* MainFeedCollectionViewCellTop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainFeedCollectionViewCellTop.h; sourceTree = "<group>"; };
 		D48D16401B8F663C00BDE92B /* MainFeedCollectionViewCellTop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainFeedCollectionViewCellTop.m; sourceTree = "<group>"; };
 		D48D16421B8F665600BDE92B /* MainFeedCollectionViewCellBottom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainFeedCollectionViewCellBottom.h; sourceTree = "<group>"; };
@@ -154,15 +149,6 @@
 			path = "Notification VC";
 			sourceTree = "<group>";
 		};
-		D462DEFF1BA06CEC00B3BACF /* 3rd party */ = {
-			isa = PBXGroup;
-			children = (
-				D462DF001BA06D1700B3BACF /* AWCollectionViewDialLayout.h */,
-				D462DF011BA06D1700B3BACF /* AWCollectionViewDialLayout.m */,
-			);
-			path = "3rd party";
-			sourceTree = "<group>";
-		};
 		D46A8E341B9B43BF00F4CB42 /* Dummy images */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,6 +206,7 @@
 		D47D08101B99F561009AC81A /* New Post VC */ = {
 			isa = PBXGroup;
 			children = (
+				D4F7E32B1B933043006A2547 /* Post VC */,
 				D47D08111B99F577009AC81A /* NewPostViewController.h */,
 				D47D08121B99F577009AC81A /* NewPostViewController.m */,
 			);
@@ -252,6 +239,15 @@
 			);
 			name = "Journalist VC";
 			path = Journalist;
+			sourceTree = "<group>";
+		};
+		D48731561BA1F13600B4160B /* MyFeed VC */ = {
+			isa = PBXGroup;
+			children = (
+				D48731571BA1F16800B4160B /* MyFeedViewController.h */,
+				D48731581BA1F16800B4160B /* MyFeedViewController.m */,
+			);
+			path = "MyFeed VC";
 			sourceTree = "<group>";
 		};
 		D48D163E1B8F660300BDE92B /* Main Feed Cv */ = {
@@ -343,7 +339,6 @@
 		D4B9698D1B8CCF41000575E5 /* Everything */ = {
 			isa = PBXGroup;
 			children = (
-				D462DEFF1BA06CEC00B3BACF /* 3rd party */,
 				D46A8E341B9B43BF00F4CB42 /* Dummy images */,
 				D48D16481B8F6ABB00BDE92B /* Header Files */,
 				D4B9699A1B8CCFA8000575E5 /* Localization */,
@@ -375,6 +370,7 @@
 		D4B969921B8CCF41000575E5 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D48731561BA1F13600B4160B /* MyFeed VC */,
 				D43ADBD71B9C9FBE007F14A7 /* EditProfile VC */,
 				D4E352581B9C430600D49D09 /* CategoryViewConroller */,
 				D47D081C1B9A017B009AC81A /* Journalist VC */,
@@ -384,7 +380,6 @@
 				D47D080C1B99F06B009AC81A /* AddImageVC */,
 				D497D1A81B98AECC00A844F2 /* RegisterVC */,
 				D4F7E32F1B9332CC006A2547 /* Comment VC */,
-				D4F7E32B1B933043006A2547 /* Post VC */,
 				D445ADBA1B91E70D00208891 /* Notification VC */,
 				D4CFF1E41B8E173C00B74CFA /* MainFeed Vc */,
 				D4B969A01B8CD08C000575E5 /* LoginView Controller */,
@@ -448,9 +443,6 @@
 		D4E3525C1B9C434500D49D09 /* CategoryCell CV */ = {
 			isa = PBXGroup;
 			children = (
-				D462DF0B1BA06F2000B3BACF /* dialCellCollectionViewCell.h */,
-				D462DF0C1BA06F2000B3BACF /* dialCellCollectionViewCell.m */,
-				D462DF0D1BA06F2000B3BACF /* dialCellCollectionViewCell.xib */,
 				D4E3525D1B9C437A00D49D09 /* CategoryCollectionViewCell.h */,
 				D4E3525E1B9C437A00D49D09 /* CategoryCollectionViewCell.m */,
 				D4E3525F1B9C437A00D49D09 /* CategoryCollectionViewCell.xib */,
@@ -464,7 +456,8 @@
 				D4F7E32C1B93305A006A2547 /* PostViewController.h */,
 				D4F7E32D1B93305A006A2547 /* PostViewController.m */,
 			);
-			path = "Post VC";
+			name = "Post VC";
+			path = "../Post VC";
 			sourceTree = "<group>";
 		};
 		D4F7E32F1B9332CC006A2547 /* Comment VC */ = {
@@ -570,7 +563,6 @@
 				D43ADBD61B9C9F6A007F14A7 /* 12.jpg in Resources */,
 				D46A8E3B1B9B43E000F4CB42 /* 2.jpg in Resources */,
 				D4B969991B8CCF41000575E5 /* Main.storyboard in Resources */,
-				D462DF0F1BA06F2000B3BACF /* dialCellCollectionViewCell.xib in Resources */,
 				D46A8E3E1B9B43E000F4CB42 /* 5.jpg in Resources */,
 				D4B9699D1B8CCFFA000575E5 /* LocalizeHelper.strings in Resources */,
 				D4B969981B8CCF41000575E5 /* LaunchScreen.xib in Resources */,
@@ -597,7 +589,6 @@
 			files = (
 				D4E352601B9C437A00D49D09 /* CategoryCollectionViewCell.m in Sources */,
 				D497D1AB1B98AECC00A844F2 /* RegisterViewController.m in Sources */,
-				D462DF021BA06D1700B3BACF /* AWCollectionViewDialLayout.m in Sources */,
 				D445ADBD1B91E72D00208891 /* NotificationViewController.m in Sources */,
 				D47D080F1B99F06B009AC81A /* AddImageViewController.m in Sources */,
 				D48D16441B8F665600BDE92B /* MainFeedCollectionViewCellBottom.m in Sources */,
@@ -610,12 +601,12 @@
 				D4F7E32E1B93305A006A2547 /* PostViewController.m in Sources */,
 				D4E3525B1B9C431D00D49D09 /* CategoryViewConroller.m in Sources */,
 				D4B969971B8CCF41000575E5 /* AppDelegate.m in Sources */,
+				D48731591BA1F16800B4160B /* MyFeedViewController.m in Sources */,
 				D4F7E3321B9332D9006A2547 /* CommentViewController.m in Sources */,
 				D4B969681B8CCB43000575E5 /* main.m in Sources */,
 				D47D081B1B99F5D8009AC81A /* SettingVcViewController.m in Sources */,
 				D4CFF1E71B8E175000B74CFA /* MainFeedViewController.m in Sources */,
 				D47D081F1B9A01CA009AC81A /* JournalistViewController.m in Sources */,
-				D462DF0E1BA06F2000B3BACF /* dialCellCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
