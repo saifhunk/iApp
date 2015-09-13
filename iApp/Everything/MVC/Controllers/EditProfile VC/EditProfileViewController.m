@@ -90,7 +90,8 @@
 
 -(void)BtnSaveClicked:(UIButton *)btn
 {
-    
+    [[[UIAlertView alloc]initWithTitle:@"" message:@"Coming soon" delegate:self cancelButtonTitle:@"Okay" otherButtonTitles:nil, nil]show];
+
 }
 
 

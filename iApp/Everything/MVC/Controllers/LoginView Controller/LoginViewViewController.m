@@ -53,6 +53,8 @@
 #pragma mark - IBAction
 
 - (IBAction)actionBtnFacebook:(id)sender {
+    
+    [[[UIAlertView alloc]initWithTitle:@"" message:@"Coming soon" delegate:self cancelButtonTitle:@"Okay" otherButtonTitles:nil, nil]show];
 }
 
 - (IBAction)actionBtnLogin:(id)sender {

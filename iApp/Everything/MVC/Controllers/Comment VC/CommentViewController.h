@@ -16,8 +16,8 @@
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *ConstraintBottom;
 @property (weak, nonatomic) IBOutlet UITextView *textViewComment;
 
-@property (weak, nonatomic) IBOutlet NSLayoutConstraint *constraintTop;
 @property (weak, nonatomic) IBOutlet UIView *ViewComment;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *constraintTop;
 
 - (IBAction)actionBtnDown:(id)sender;
 - (IBAction)actionBtnPost:(id)sender;

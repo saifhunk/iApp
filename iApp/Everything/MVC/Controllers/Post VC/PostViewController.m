@@ -32,11 +32,22 @@
 }
 - (IBAction)actionBtnShare:(id)sender
 {
-    [self.navigationController popViewControllerAnimated:YES];
+    [self dismissViewControllerAnimated:YES completion:^{
+        
+    }];
 }
 
 - (IBAction)actionBtnComment:(id)sender
 {
     [self performSegueWithIdentifier:@"SegueComment" sender:self];
 }
+
+- (IBAction)actionBtnBack:(id)sender
+{
+    [self dismissViewControllerAnimated:YES completion:^{
+        
+    }];
+ 
+}
+
 @end

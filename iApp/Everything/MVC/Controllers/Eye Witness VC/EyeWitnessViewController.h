@@ -15,4 +15,9 @@
 @property (weak, nonatomic) IBOutlet UILabel *labelName;
 @property (weak, nonatomic) IBOutlet UITextView *textViewLinks;
 @property (weak, nonatomic) IBOutlet UITextView *textViewtags;
+- (IBAction)actionBtnToggle:(id)sender;
+
+- (IBAction)actionBtnLocation:(id)sender;
+- (IBAction)actionBtnPost:(id)sender;
+
 @end

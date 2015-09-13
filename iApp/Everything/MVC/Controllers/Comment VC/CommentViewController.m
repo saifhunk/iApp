@@ -102,30 +102,30 @@
 
 - (void)keyboardWasShown:(NSNotification*)aNotification
 {
-    [self.view layoutIfNeeded];
-    [self.view updateConstraintsIfNeeded];
     
-    NSDictionary* info = [aNotification userInfo];
-    
-    CGSize kbSize = [[info objectForKey:UIKeyboardFrameEndUserInfoKey] CGRectValue].size;
-
-    
-        [UIView animateWithDuration:0.5 animations:^{
-            _ConstraintBottom.constant = kbSize.height;
-            _constraintTop.constant = -50;
-        }];
+//    NSDictionary* info = [aNotification userInfo];
+//    
+//    CGSize kbSize = [[info objectForKey:UIKeyboardFrameEndUserInfoKey] CGRectValue].size;
+//    [self.view layoutIfNeeded];
+//    [self.view updateConstraintsIfNeeded];
+//    
+//        [UIView animateWithDuration:0.5 animations:^{
+//            _ConstraintBottom.constant = kbSize.height;
+//            
+//
+//        }];
     
 }
 
 - (void)keyboardWillBeHidden:(NSNotification*)aNotification
 
 {
-    [UIView animateWithDuration:0.5 animations:^{
-        
-        
-        _ConstraintBottom.constant = 0;
-        _constraintTop.constant = self.view.frame.size.height/2-50;
-    }];
+//    [UIView animateWithDuration:0.5 animations:^{
+//        
+//        
+//        _ConstraintBottom.constant = 0;
+//
+//    }];
 }
 
 - (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text {
@@ -197,5 +197,8 @@
 }
 
 - (IBAction)actionBtnPost:(id)sender {
+    
+    [[[UIAlertView alloc]initWithTitle:@"" message:@"Comming soon" delegate:self cancelButtonTitle:@"Okay" otherButtonTitles:nil, nil]show];
+
 }
 @end

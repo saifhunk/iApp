@@ -131,6 +131,7 @@
 #pragma mark - IBAction
 
 - (IBAction)actionBtnGroup:(id)sender {
+    [[[UIAlertView alloc]initWithTitle:@"" message:@"Coming soon" delegate:self cancelButtonTitle:@"Okay" otherButtonTitles:nil, nil]show];
 }
 
 - (IBAction)actionBtnProfile:(id)sender {

@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     _imagwViewPerson.layer.cornerRadius = _imagwViewPerson.frame.size.height/2;
+    _imagwViewPerson.clipsToBounds = YES;
 
     // Do any additional setup after loading the view.
 }
@@ -77,5 +78,25 @@
         }
     }
 }
+-(void)showAlert
+{
+    [[[UIAlertView alloc]initWithTitle:@"" message:@"Coming soon" delegate:self cancelButtonTitle:@"Okay" otherButtonTitles:nil, nil]show];
 
+}
+
+
+- (IBAction)actionBtnToggle:(id)sender {
+    [self showAlert];
+    
+}
+
+- (IBAction)actionBtnLocation:(id)sender {
+    [self showAlert];
+
+}
+
+- (IBAction)actionBtnPost:(id)sender {
+    [self showAlert];
+
+}
 @end

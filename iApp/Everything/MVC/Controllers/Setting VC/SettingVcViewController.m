@@ -47,6 +47,6 @@
 
 - (IBAction)actionBtnLogout:(id)sender {
     
-    [self.navigationController popViewControllerAnimated:YES];
+    [[[UIAlertView alloc]initWithTitle:@"" message:@"Coming soon" delegate:self cancelButtonTitle:@"Okay" otherButtonTitles:nil, nil]show];
 }
 @end

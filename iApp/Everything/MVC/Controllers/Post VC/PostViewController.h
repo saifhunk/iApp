@@ -25,6 +25,7 @@
 - (IBAction)actionBtnShare:(id)sender;
 
 - (IBAction)actionBtnComment:(id)sender;
+- (IBAction)actionBtnBack:(id)sender;
 
 
 @end

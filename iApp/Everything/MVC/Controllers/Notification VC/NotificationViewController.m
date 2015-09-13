@@ -73,5 +73,9 @@
 }
 
 - (IBAction)actionBtnClearAll:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:^{
+        
+    } ];
+
 }
 @end
